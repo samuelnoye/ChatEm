@@ -12,6 +12,7 @@
 		4900445B2922927500A77F91 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4900445A2922927500A77F91 /* ViewController.swift */; };
 		490044602922927800A77F91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4900445F2922927800A77F91 /* Assets.xcassets */; };
 		490044632922927800A77F91 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 490044612922927800A77F91 /* LaunchScreen.storyboard */; };
+		490044702922B6D700A77F91 /* ChatManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4900446F2922B6D700A77F91 /* ChatManager.swift */; };
 		84BFFA93477AC26160BEEF60 /* Pods_ChatEm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EA219F41E2101BF0EB40C9A /* Pods_ChatEm.framework */; };
 /* End PBXBuildFile section */
 
@@ -24,6 +25,7 @@
 		4900445F2922927800A77F91 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		490044622922927800A77F91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		490044642922927800A77F91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4900446F2922B6D700A77F91 /* ChatManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatManager.swift; sourceTree = "<group>"; };
 		6EA219F41E2101BF0EB40C9A /* Pods_ChatEm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChatEm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A71A4B8F9E36591F7387190A /* Pods-ChatEm.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChatEm.debug.xcconfig"; path = "Target Support Files/Pods-ChatEm/Pods-ChatEm.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -61,14 +63,55 @@
 		490044552922927500A77F91 /* ChatEm */ = {
 			isa = PBXGroup;
 			children = (
+				4900446E2922B65C00A77F91 /* Managers */,
+				4900446D2922B5FE00A77F91 /* Others */,
+				4900446C2922B5E900A77F91 /* Controllers */,
+				4900446B2922B5D600A77F91 /* Models */,
+				4900446A2922B5C300A77F91 /* Views */,
 				490044562922927500A77F91 /* AppDelegate.swift */,
 				490044582922927500A77F91 /* SceneDelegate.swift */,
-				4900445A2922927500A77F91 /* ViewController.swift */,
-				4900445F2922927800A77F91 /* Assets.xcassets */,
 				490044612922927800A77F91 /* LaunchScreen.storyboard */,
 				490044642922927800A77F91 /* Info.plist */,
 			);
 			path = ChatEm;
+			sourceTree = "<group>";
+		};
+		4900446A2922B5C300A77F91 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4900445A2922927500A77F91 /* ViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4900446B2922B5D600A77F91 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4900446C2922B5E900A77F91 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		4900446D2922B5FE00A77F91 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				4900445F2922927800A77F91 /* Assets.xcassets */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		4900446E2922B65C00A77F91 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				4900446F2922B6D700A77F91 /* ChatManager.swift */,
+			);
+			name = Managers;
 			sourceTree = "<group>";
 		};
 		87B88241FEBEF926866C892E /* Frameworks */ = {
@@ -205,6 +248,7 @@
 				4900445B2922927500A77F91 /* ViewController.swift in Sources */,
 				490044572922927500A77F91 /* AppDelegate.swift in Sources */,
 				490044592922927500A77F91 /* SceneDelegate.swift in Sources */,
+				490044702922B6D700A77F91 /* ChatManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
