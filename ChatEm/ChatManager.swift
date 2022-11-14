@@ -17,4 +17,20 @@ final class ChatManager {
         let client = ChatClient(config: .init(apiKey: .init("69z8bzvavmcw")))
         self.client = client
     }
+    
+    //Authentication
+    func signIn(with username: String, completion: @escaping (Bool) -> Void){
+        
+    }
+    func signOut(){
+        
+    }
+    var isSignIn: Bool {
+        return false
+    }
+    var currentUser: String? {
+        return nil
+    }
+
+    
 }
