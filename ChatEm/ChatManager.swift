@@ -31,6 +31,11 @@ final class ChatManager {
     var currentUser: String? {
         return nil
     }
-
-    
+    //ChannelList + creation
+    public func creationChannelList() -> UIViewController {
+        return UIViewController()
+    }
+    public func createNewChannel(name: String){
+        
+    }
 }
