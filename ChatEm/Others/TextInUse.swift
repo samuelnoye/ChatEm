@@ -23,7 +23,7 @@ public struct TextsInUse {
     public static let Feet =  "feet"
     public static let Kg =  "kg"
     public static let Lbs =  "lbs"
-    public static let Kph =  "kphbvf "
+    public static let Kph =  "kph"
     public static let Hr =  "hr"
     public static let Dot =  "."
     public static let Zero =  "0"
