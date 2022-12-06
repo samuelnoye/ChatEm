@@ -27,7 +27,7 @@ public struct TextsInUse {
     public static let Hr =  "hr"
     public static let Dot =  "."
     public static let Zero =  "0"
-    public static let Timeout =  ""
+    public static let Timeout =  " xjx bxbv"
     public static let Ok =  "Ok"
     public static let Edit =  "edit"
     public static let CreditSuccess =  "Your credit was purchased successfully."
